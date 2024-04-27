@@ -11,24 +11,35 @@
     <br>
     <div>
     <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname">  
-        <label for="lastname" id="lastname" >Last Name:</label>
-        <input type="text" id="lastname" name="lastname"> <br> <br>
-        <label for="dob">Date Of Birth:</label>
-        <input type="text" id="dob" name="dob">  
-        <label for="Contact" id="Contact" >Contact:</label>
-        <input type="tel" id="Contact" name="Contact"> <br> <br>
-        <label for="Email">Email:</label>
-        <input type="text" id="Email" name="Email">  
-        <label for="Password" id="Password1" >Password:</label>
-        <input type="password" id="Password" name="Password"> <br> <br>
-        <label for="radio" id="radio" >Gender:</label>
+        <div class="input-box">
+        <label for="fname" class="details">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your First Name">  
+        </div>
+        <div class="input-box">
+        <label for="lastname" id="lastname" class="details" >Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"> <br> <br>
+        </div>
+        <div class="input-box">
+        <label for="dob" class="details">Date Of Birth:</label>
+        <input type="text" id="dob" name="dob" placeholder="Enter Your Date Of Birth">  
+        </div>
+        <div class="input-box">
+        <input type="tel" id="Contact" name="Contact" placeholder="Contact Number"> <br> <br>
+        </div>
+        <div class="input-box">
+        <label for="Email" class="details">Email:</label>
+        <input type="text" id="Email" name="Email" placeholder="Enter Your Email">  
+        </div>
+        <div class="input-box">
+        <label for="Password" id="Password1" class="details">Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter Your Password"> <br> <br>
+        </div>
+        <label for="radio" id="radio" class="details">Gender:</label>
         <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <br>
-        <textarea rows="4" cols="50" name="comment"></textarea>
-        <button>submit</button>
+        <input type="radio" name="gender" value="female"> Female <br>
+        <textarea rows="4" cols="50" name="comment"></textarea> <br> <br>
+        
+        <button id="btn">submit</button>
     </form>
     </div>
 </body>
